@@ -1,0 +1,26 @@
+* {
+    background-color: sandybrown;
+}
+
+/* selectores de tipo*/
+h1 { 
+    color: blue;
+    text-align: center;
+}
+h2 {
+    color: royalblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Selectores de clase
+Selecciona elementos de clase específica asignada*/
+.productos{
+    background-color: aquamarine;
+}
+/*
+Selectores de id
+permite seleccionar un elemento con su id específico*/
+
+#tipos {
+    color: azure;
+}
