@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 body {
-    background-color: #bfd1ec;
+    background-color: #aac6f0;
     padding: 40px;
     font-family: 'Montserrat', sans-serif;
   }
@@ -206,7 +205,8 @@ body {
   
   .photo:hover {
     animation: pulse 1s;
-=======
+  }
+
 body {
     background-color: #f5f7fa;
     padding: 40px;
@@ -414,5 +414,4 @@ body {
   
   .photo:hover {
     animation: pulse 1s;
->>>>>>> 72b57126fda4998ffa9087ec025df8032b730d85
   }
