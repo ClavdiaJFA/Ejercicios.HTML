@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" type="image/x-icon" href="assets/comunicar.png"/>
+    <link rel="stylesheet" href="./contacto.css"/>
+</head>
+<body>
+    <header>
+        <h1>Contáctanos</h1>
+    </header>
+    <main>
+        <section>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>datos generales</legend>
+
+                    <label for="first_name">Nombre: </label>
+                    <input id="first name" type="text" placeholder="Nombre" required>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="last_name">Apellidos: </label>
+                    <input id="last name" type="text" placeholder="Apellidos" required>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="email">Correo electrónico: </label>
+                    <input id="email" type="mail" placeholder="tucorreo@correo.com" autocomplete="email" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend> Detalles de la compra </legend>
+    
+                    <label for="number-of-tamales"> ¿Cuántos tamales requiere? </label>
+                    <input id="number-of-tamales" type="number" min="20" max="500" required> <!--Indicamos los valores mínimos y máximos requeridos-->
+                    <br>
+                    <br>
+                    <label for="atole"> ¿Cuántos litros de atole requiere? <input id="atole" type="number" min="2" max="50"> </label>
+                    <br>
+                    <br>
+    
+                    <label for="date"> Fecha del evento: <input id="date" type="date"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Datos del envío: </legend>
+                    <select name="stores" id="stores">
+                        <option value="Sucursal Azcapotzalco">Sucursal Azcapotzalco</option>
+                        <option value="Sucursal Gustavo A. Madero">Sucursal Gustavo A. Madero</option>
+                        <option value="Sucursal Miguel Hidalgo">Sucursal Miguel Hidalgo</option>
+                        <option value="Envío a domicilio">Envío a domicilio</option>
+                    </select>
+                    <input list="stores_two">
+                <datalist id="stores_two">
+                    <option value="Sucursal Azcapotzalco">Sucursal Azcapotzalco</option>
+                    <option value="Sucursal Gustavo A. Madero">Sucursal Gustavo A. Madero</option>
+                    <option value="Sucursal Miguel Hidalgo">Sucursal Miguel Hidalgo</option>
+                    <option value="Envío a domicilio">Envío a domicilio</option>
+                </datalist>
+                <br>
+                <br>
+                <br>
+
+                <input id="delivery" type="radio" name="type-of-delivery"> Entrega en sucursal
+                <input id="order" type="radio" name="type-of-delivery"> Envío a domicilio
+                <br>
+                <br>
+                <br>
+
+                <label for="verified"><input id="verified" type="checkbox" >He leído y acepto los términos y condiciones</label>
+                <br>
+                <br>
+                <br>
+
+                <button type="submit">Enviar</button>
+
+            </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
