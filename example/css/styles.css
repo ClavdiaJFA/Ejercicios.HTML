@@ -24,3 +24,22 @@ permite seleccionar un elemento con su id específico*/
 #tipos {
     color: azure;
 }
+
+table{
+    text-align: center;
+    border: 1px solid black;
+    border-right: 1px dashed blue;
+    border-left: 2px dotted blue;
+    border-top: 3px double red;
+    border-bottom: 2px solid greenyellow;
+
+}
+
+th, td {
+    border: 2px solid black;
+}
+
+.tabDos {
+    text-align: center;
+    border: 2px solid green;
+}
